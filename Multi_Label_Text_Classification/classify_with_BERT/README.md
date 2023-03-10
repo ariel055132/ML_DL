@@ -54,3 +54,14 @@
 7. Start training the model.
 8. Evaluate the model performance. You can visualise the model predictions with confusion matrix and classification report.
 9. Make predictions with testing dataset.
+
+* You can find the code in Github.
+
+[ML_DL/Classify_BERT_title.ipynb at main · ariel055132/ML_DL (github.com)](https://github.com/ariel055132/ML_DL/blob/main/Multi_Label_Text_Classification/classify_with_BERT/Classify_BERT_title.ipynb)
+
+
+
+## Future Work 
+
+1. Learning Rate update automatically.
+2. Fine-tuning model hyperparameters.
