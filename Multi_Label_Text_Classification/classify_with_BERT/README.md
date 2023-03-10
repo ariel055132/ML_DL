@@ -28,11 +28,18 @@
   2. TITLE (Title of the research article)
   3. ABSTRACT (Abstract of the research article)
   4. Computer Science (Whether article belongs to computer science)
-  5. Physics (same as above)
-  6. Mathematics (same as above)
-  7. Statistics (same as above)
-  8. Quantitative Biology (same as above)
-  9. Quantitative Finance (same as above)
+  5. Physics (Whether article belongs to physics)
+  6. Mathematics (Whether article belongs to mathematics)
+  7. Statistics (Whether article belongs to statistics)
+  8. Quantitative Biology (Whether article belongs to quantitative biology)
+  9. Quantitative Finance (Whether article belongs to quantitative finance)
+
+
+
+* Testing.csv has 3 columns
+  1. ID (Unique ID for each article)
+  2. TITLE (Title of the research article)
+  3. ABSTRACT (Abstract of the research article)
 
 
 
