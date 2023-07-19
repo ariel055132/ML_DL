@@ -1,62 +1,43 @@
-# Project Title
+# Explore Multi-Label Classification with an Enzyme Substrate Dataset
 
-Simple overview of use/purpose.
+This project is a part of the season 3 of 2023 edition Kaggle Playground Series. 
+
+[Explore Multi-Label Classification with an Enzyme Substrate Dataset | Kaggle](https://www.kaggle.com/competitions/playground-series-s3e18/overview/description)
+
+
 
 ## Description
 
-An in-depth paragraph about your project and overview of use.
+In this competition, our task is to predict EC1, EC2 based on 31 features. The dataset has 6 outputs (EC1-EC6). However, we only have to predict the first two outputs as the competition is required.
 
-## Getting Started
 
-### Dependencies
 
-* Describe any prerequisites, libraries, OS version, etc., needed before installing program.
-* ex. Windows 10
+## Procedures
 
-### Installing
-
-* How/where to download your program
-* Any modifications needed to be made to files/folders
-
-### Executing program
-
-* How to run the program
-* Step-by-step bullets
-```
-code blocks for commands
-```
-
-## Help
-
-Any advise for common problems or issues.
-```
-command to run if program contains helper info
-```
-
-## Authors
-
-Contributors names and contact info
-
-ex. Dominique Pizzie  
-ex. [@DomPizzie](https://twitter.com/dompizzie)
-
-## Version History
-
-* 0.2
-    * Various bug fixes and optimizations
-    * See [commit change]() or See [release history]()
-* 0.1
-    * Initial Release
-
-## License
-
-This project is licensed under the [NAME HERE] License - see the LICENSE.md file for details
-
-## Acknowledgments
-
-Inspiration, code snippets, etc.
-* [awesome-readme](https://github.com/matiassingers/awesome-readme)
-* [PurpleBooth](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2)
-* [dbader](https://github.com/dbader/readme-template)
-* [zenorocha](https://gist.github.com/zenorocha/4526327)
-* [fvcproductions](https://gist.github.com/fvcproductions/1bfc2d4aecb01a834b46)
+1. Data Processing
+   * Read the data
+   * Checking for null / nan values and duplicates
+   * Drop unnecessary features
+   * Correlation analysis.
+2. Feature Selection
+   * Mutual Information.
+   * Select the features with the correlation results.
+3. Data Preprocessing
+   * Split the training features and targets.
+   * Data Normalization with Standard Scaler.
+   * Split the training dataset and testing dataset.
+4. Model Training (Baseline)
+   * Decision Tree
+   * Logistic Regression
+   * Random Forest
+   * K-Nearest Neighbor
+   * Naive Bayes
+   * Gradient Boosting
+   * XGboost
+   * Adaboost
+   * LightGBM
+   * Catboost
+5. Model Evaluation
+   * Area under the ROC Curve
+6. Ensemble with soft voting.
+7. Generate the submission file and submit to Kaggle.
