@@ -34,3 +34,6 @@
 1. smokerStatusBaseline.ipynb
 2. smokerStatusBaselineEnsemble.ipynb
    * Result with RandomForestClassifier
+
+# Ranking
+* Top 15-20%
