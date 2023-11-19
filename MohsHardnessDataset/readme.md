@@ -24,10 +24,15 @@
 13. Hardness: Hardness value. (Prediction Target)
 
 # Result
-1. 20231116_XXX.csv (Result: 0.61 --> not good)
-2. 20231118_XXX.csv (Result: )
+1. 20231116_BaselinePrediction.csv (Result: 0.61 --> not good)
+   * Train the regression model.
+   * Finetuned the parameters with RandomizedSearchCV
+   * Stacking approach is used in order to obtain a better result.
+2. 20231118_BaselinePredictionV2.csv (Result: 0.50 --> Better than first one)
+   * Obtain the fine-tuned parameters with Optuna.
+   * Compare the performance using stacking and voting. Use voting instead of stacking
 
 # Insights
-* Some variables have a high degree of **linear correlation**. It may lower the performance of a model (features are similarly the same in a model perspective).
+* Some variables have a high degree of **linear correlation**. It may lower the performance of a model (features are similarly the same in a model perspective). You may delete one of them when training.
 * Linear Correlation refers to a linear relationship between two variables, where the change in one variable is directly proportional to the change in another variable. In order words, if one variable increases/decreases, the other variable also increases/decreases in a proportional manner. It is usually represented by a straight line on a scatter plot.
 * All the variables are **numerical variables**. Using **neural networks** is a great choice.
