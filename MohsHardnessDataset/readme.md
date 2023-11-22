@@ -31,6 +31,9 @@
 2. 20231118_BaselinePredictionV2.csv (Result: 0.50 --> Better than first one)
    * Obtain the fine-tuned parameters with Optuna.
    * Compare the performance using stacking and voting. Use voting instead of stacking
+3. 20231122_NNPredictionV1.csv (Result: 0.42 --> More Better)
+   * Build a six layer neural network to train
+   * 32,16,8,4,2,1
 
 # Insights
 * Some variables have a high degree of **linear correlation**. It may lower the performance of a model (features are similarly the same in a model perspective). You may delete one of them when training.
