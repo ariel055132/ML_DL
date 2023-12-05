@@ -38,6 +38,9 @@
    * Build a four layer neural network
    * Use **Batch normalization** before training.
 
+# Ranking
+* 311/1682
+
 # Insights
 * Some variables have a high degree of **linear correlation**. It may lower the performance of a model (features are similarly the same in a model perspective). You may delete one of them when training.
 * Linear Correlation refers to a linear relationship between two variables, where the change in one variable is directly proportional to the change in another variable. In order words, if one variable increases/decreases, the other variable also increases/decreases in a proportional manner. It is usually represented by a straight line on a scatter plot.
