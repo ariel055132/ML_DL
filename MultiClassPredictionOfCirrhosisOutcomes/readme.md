@@ -32,3 +32,10 @@
     * 1 (C, Censored): This means patient still being alive at the time of studying.
     * 2 (CL, Censored to Liver): The patient is censored, but the reason for censorship is specifically due to liver transplantation.
 
+# Result
+1. Version1/20231216_CirrhosisOutcomeBaselinePrediction_V1.csv
+   * Train baseline model with LGBMClassifier, Gradient Boosting, and Catboost.
+   * Use ensemble to obtain more accurate result.
+
+# Ranking --> TBD
+
