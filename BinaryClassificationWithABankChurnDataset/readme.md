@@ -1,7 +1,7 @@
 # Binary Classification with a Bank Churn Dataset
 * This project / competition is the first episode of Season 4 Kaggle Playground Series.
 [Binary Classification with a Bank Churn Dataset](https://www.kaggle.com/competitions/playground-series-s4e1/overview)
-* Objective: Predict whether a customer continues with their account or closes it.
+* Objective: Predict whether a customer continues with their account or closes it (Bank churn).
 * Evaluation: Area Under the ROC Curve
 
 # Dataset description
@@ -19,3 +19,8 @@
 12. IsActiveNumber: Whether the customer is an active member (1 = yes, 0 = no)
 13. EstimatedSalary: The estimated salary of the customer
 14. Exited: Prediction target, whether the customer has churned (1 = yes, 0 = no)
+
+# Submission and results
+1. 20240108_xgb_v1.csv
+   * Baseline model with XGBoost.
+   * Categorical features are encoded as one-hot encoding.
