@@ -21,6 +21,12 @@
 14. Exited: Prediction target, whether the customer has churned (1 = yes, 0 = no)
 
 # Submission and results
-1. 20240108_xgb_v1.csv
+1. 20240107_xgb_v1.csv
    * Baseline model with XGBoost.
    * Categorical features are encoded as one-hot encoding.
+   * 0.8841
+2. 20240109_xgb_v2.csv
+   * Baseline model with XGBoost.
+   * Use GridSearchCV to implement hyperparamter-tuning.
+   * params: {'gamma': 1.0, 'learning_rate': 0.1,'max_depth': 5, 'reg_lambda': 10.0, 'scale_pos_weight': 1}
+   * 0.88539
