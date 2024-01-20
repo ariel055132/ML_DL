@@ -21,6 +21,7 @@
 14. Exited: Prediction target, whether the customer has churned (1 = yes, 0 = no)
 
 # Submission and results
+* The following submission file are from 20240109_BankChrunBinaryPrediction_V1.ipynb.
 1. 20240107_xgb_v1.csv
    * Baseline model with XGBoost.
    * Categorical features are encoded as one-hot encoding.
