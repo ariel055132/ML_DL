@@ -30,3 +30,6 @@
 2. 20240204_FineTuned_LGBM.csv
    * Train a fine-tuned LightGBM model with optuna 
    * 0.89450
+3. 20240205_FineTuned_XGBoost.csv
+   * Train a fine-tuned XGBoost model with optuna 
+   * 0.91437
