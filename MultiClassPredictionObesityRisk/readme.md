@@ -60,3 +60,6 @@
    * 0.91437
 4. 20240206_FineTuned_LGBM.csv
    * 0.91473
+5. 20240206_FineTuned_LGBM_Others.csv
+   * Using hyperparameters from https://www.kaggle.com/code/divyam6969/beginners-easy-obesity-risk-lgsm-tuning/notebook
+   * 0.91943
