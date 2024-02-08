@@ -85,3 +85,7 @@
 5. 20240206_FineTuned_LGBM_Others.csv
    * Using hyperparameters from https://www.kaggle.com/code/divyam6969/beginners-easy-obesity-risk-lgsm-tuning/notebook
    * 0.91943
+6. 20240208_Baseline_Catboost_submission.csv
+   * Train a baseline model with Catboost.
+   * One-Hot encoding the categorical variables
+   * 0.90968
