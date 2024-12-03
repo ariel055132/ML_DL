@@ -4,3 +4,6 @@
 /BinaryPredictionOfMushrooms/Datasets/train.csv
 /BinaryPredictionOfMushrooms/Datasets/test.csv
 /BinaryPredictionOfMushrooms/Datasets/sample_submission.csv
+/RegressionWithAnInsuranceDataset/Dataset/train.csv
+/RegressionWithAnInsuranceDataset/Dataset/test.csv
+/RegressionWithAnInsuranceDataset/Dataset/sample_submission.csv
